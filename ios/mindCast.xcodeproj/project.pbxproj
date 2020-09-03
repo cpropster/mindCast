@@ -48,6 +48,7 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		8C75CED90F6045B79172AF32 /* CircularStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = D61391E4A47A4219B6EA11C4 /* CircularStd-Black.otf */; };
 		9E2D84CDF6FF4071B7807DDC /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95EF3FFD99B4461AB29EEF3A /* CircularStd-Medium.otf */; };
+		A07E1C2B2501B0E90062CF13 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
 		A9759CB4565E486A8700A66A /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E697CF379FE41E0BB05D360 /* FontAwesome5_Solid.ttf */; };
 		ACE9349335F84DF7B27AE4A2 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13899ACACE604227B0210CE0 /* Foundation.ttf */; };
 		AD1664B91C094E129E2C8AD0 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEFEC4384BBB4AB09729016B /* FontAwesome.ttf */; };
@@ -308,6 +309,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
+		};
+		A07E1C352501B0E90062CF13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28473BFF97324F2E887A1493 /* RNGestureHandler.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5C32A36220C603B000FFB8D;
+			remoteInfo = "RNGestureHandler-tvOS";
 		};
 		ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -836,6 +844,7 @@
 			isa = PBXGroup;
 			children = (
 				C0714FAE224BC269006952AF /* libRNGestureHandler.a */,
+				A07E1C362501B0E90062CF13 /* libRNGestureHandler-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1297,6 +1306,13 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		A07E1C362501B0E90062CF13 /* libRNGestureHandler-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRNGestureHandler-tvOS.a";
+			remoteRef = A07E1C352501B0E90062CF13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1425,6 +1441,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				C0CC4A1B221F5FA2004251F6 /* MaterialCommunityIcons.ttf in Resources */,
+				A07E1C2B2501B0E90062CF13 /* main.jsbundle in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				8C75CED90F6045B79172AF32 /* CircularStd-Black.otf in Resources */,
 				E298FC48611A4C73884F99C8 /* CircularStd-Bold.otf in Resources */,
